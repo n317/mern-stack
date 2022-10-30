@@ -1,7 +1,7 @@
 {
   "name": "mern-project",
   "version": "1.0.0",
-  "homepage": "https://n317.github.io/react-gh-pages",
+  "homepage": "https://n317.github.io/mern-stack",
   "description": "",
   "main": "server.js",
   "scripts": {
