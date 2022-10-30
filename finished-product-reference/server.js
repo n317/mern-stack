@@ -116,7 +116,7 @@ function ourCleanup(req, res, next) {
 }
 
 async function start() {
-  const client = new MongoClient("mongodb://root:root@localhost:27017/AmazingMernApp?&authSource=admin")
+  const client = new MongoClient("mongodb+srv://n31751740:VqnelXUOhEwPZ8pr@cluster0.jbxun29.mongodb.net/?retryWrites=true&w=majority")
   await client.connect()
   db = client.db()
   app.listen(3000)
